@@ -1,18 +1,25 @@
-const Header = () => 
+
+import CartWidget from "./CartWidget"
+import NavBar from "./NavBar"
+import ItemListContainer from "./ItemListContainer"
 
 
-            <header>
+const Header = () => {
+
+                
+
+                return (  <header>
+
+                        <CartWidget/>
 
                     <h1>TIENDA ECOMMERCE</h1>
 
-                    <ul>
-                        <li><a href="#">EMPRESA</a></li>
-                        <li><a href="#">PRODUCTOS</a></li>
-                        <li><a href="#">TECNOLOGIAS</a></li>
-                        <li><a href="#">CONTACTO</a></li>
-                    </ul>
+                        <NavBar/>
 
-            </header>   
-            
+                        <ItemListContainer/>
 
-            export default Header
+                        </header>  )
+            }
+
+
+  export default Header
