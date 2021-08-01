@@ -2,6 +2,8 @@
 import CartWidget from "./CartWidget"
 import NavBar from "./NavBar"
 import ItemListContainer from "./ItemListContainer"
+import Contador from "./Contador"
+
 
 
 const Header = () => {
@@ -17,6 +19,10 @@ const Header = () => {
                         <NavBar/>
 
                         <ItemListContainer/>
+
+                        <Contador/>
+
+                        
 
                         </header>  )
             }
